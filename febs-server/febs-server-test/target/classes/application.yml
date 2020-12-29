@@ -1,0 +1,41 @@
+server:
+  port: 8202
+
+spring:
+  application:
+    name: FEBS-Server-Test
+#因为我们在febs-common模块里引入了mybatis-plus-boot-starter，该starter包含数据库自动装配配置，而febs-gateway、febs-server-system和febs-server-test模块并没有配置数据库，所以我们需要在它们的配置文件application:
+#  yml里添加如下配置来关闭数据库自动装配:
+#  autoconfigure:
+#    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration
+#spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${nacos.url}:8001
+
+#eureka:
+#  instance:
+#    lease-renewal-interval-in-seconds: 20
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    instance-info-replication-interval-seconds: 30
+#    registry-fetch-interval-seconds: 3
+#    serviceUrl:
+##      defaultZone: http://febs:123456@localhost:8001/register/eureka/
+#      defaultZone: http://${febs-register}:8761/eureka/
+
+security:
+  oauth2:
+    resource:
+      id: ${spring.application.name}
+      user-info-uri: http://${febs-gateway}:8301/auth/user
+
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  shareSecurityContext: true

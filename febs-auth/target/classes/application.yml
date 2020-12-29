@@ -1,0 +1,86 @@
+server:
+  port: 8101
+
+spring:
+  datasource:
+    dynamic:
+      hikari:
+        connection-timeout: 30000
+        max-lifetime: 1800000
+        max-pool-size: 15
+        min-idle: 5
+        connection-test-query: select 1
+        pool-name: FebsHikariCP
+      primary: base
+      datasource:
+        base:
+          username: root
+          password: root
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://${mysql.url}:3306/febs_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+#          url: jdbc:mysql://192.168.146.131:3306/febs_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+#spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${nacos.url}:8001
+  application:
+    name: FEBS-Auth
+  redis:
+    database: 0
+    host: ${redis.url}
+    port: 6379
+    lettuce:
+#    jedis:
+      pool:
+        min-idle: 8
+        max-idle: 500
+        max-active: 2000
+        max-wait: 10000
+    timeout: 5000
+#
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8401
+#        username: febs
+#        password: 123456
+#
+#info:
+#  app:
+#    name: ${spring.application.name}
+#    description: "FEBS-Cloud认证服务器"
+#    version: "1.0-SNAPSHOT"
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#  endpoint:
+#    health:
+#      show-details: ALWAYS
+#
+
+
+#eureka:
+#  instance:
+#    lease-renewal-interval-in-seconds: 20
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    instance-info-replication-interval-seconds: 30
+#    registry-fetch-interval-seconds: 3
+#    serviceUrl:
+#      defaultZone: http://${febs-register}:8761/eureka/
+##      defaultZone: http://febs:123456@localhost:8001/register/eureka/
+
+
+
+mybatis-plus:
+  type-aliases-package: cc.mrbird.febs.common.entity.system
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    jdbc-type-for-null: null
+  global-config:
+    banner: false

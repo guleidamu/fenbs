@@ -1,0 +1,227 @@
+2020-12-04 20:00:16 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5d654ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-04 20:00:16 INFO  [FEBS-Gateway,,,] main com.damu.febs.gateway.FebsGatewayApplication No active profile set, falling back to default profiles: default
+2020-12-04 20:00:18 INFO  [FEBS-Gateway,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-04 20:00:18 INFO  [FEBS-Gateway,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-04 20:00:18 INFO  [FEBS-Gateway,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2020-12-04 20:00:18 INFO  [FEBS-Gateway,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=86c87466-47d4-3d4b-85ba-dc9098ae8fd1
+2020-12-04 20:00:19 INFO  [FEBS-Gateway,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5d654ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-04 20:00:19 INFO  [FEBS-Gateway,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8301 (http)
+2020-12-04 20:00:19 INFO  [FEBS-Gateway,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8301"]
+2020-12-04 20:00:19 INFO  [FEBS-Gateway,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-04 20:00:19 INFO  [FEBS-Gateway,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-12-04 20:00:19 INFO  [FEBS-Gateway,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-04 20:00:19 INFO  [FEBS-Gateway,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 2912 ms
+2020-12-04 20:00:20 INFO  [FEBS-Gateway,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-04 20:00:20 INFO  [FEBS-Gateway,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1ffd0114
+2020-12-04 20:00:23 INFO  [FEBS-Gateway,,,] main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: c113caa0-99f2-4b86-83f2-b1084586f2ef
+
+2020-12-04 20:00:23 INFO  [FEBS-Gateway,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@645d4639, org.springframework.security.web.context.SecurityContextPersistenceFilter@152891f8, org.springframework.security.web.header.HeaderWriterFilter@212e39ee, org.springframework.security.web.authentication.logout.LogoutFilter@19d3f6ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15a484a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57b130f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8ee03f5, org.springframework.security.web.session.SessionManagementFilter@1c411474, org.springframework.security.web.access.ExceptionTranslationFilter@2a661215]
+2020-12-04 20:00:23 INFO  [FEBS-Gateway,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-04 20:00:24 INFO  [FEBS-Gateway,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-04 20:00:25 INFO  [FEBS-Gateway,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-04 20:00:25 INFO  [FEBS-Gateway,,,] main org.springframework.cloud.netflix.zuul.ZuulFilterInitializer Starting filter initializer
+2020-12-04 20:00:25 INFO  [FEBS-Gateway,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2020-12-04 20:00:25 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2020-12-04 20:00:25 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2020-12-04 20:00:25 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2020-12-04 20:00:26 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2020-12-04 20:00:26 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2020-12-04 20:00:26 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:00:26 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-04 20:00:26 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-04 20:00:26 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-04 20:00:26 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-04 20:00:26 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-04 20:00:26 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-12-04 20:00:26 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1607083227237 with initial instances count: 0
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application FEBS-GATEWAY with eureka with status UP
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1607083227250, current=UP, previous=STARTING]
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-GATEWAY/192.168.0.108:FEBS-Gateway:8301: registering service...
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8301"]
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8301 (http) with context path ''
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8301
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] main com.damu.febs.gateway.FebsGatewayApplication Started FebsGatewayApplication in 12.964 seconds (JVM running for 14.29)
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-GATEWAY/192.168.0.108:FEBS-Gateway:8301 - registration status: 204
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] RMI TCP Connection(16)-127.0.0.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] RMI TCP Connection(16)-127.0.0.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-12-04 20:00:27 INFO  [FEBS-Gateway,,,] RMI TCP Connection(16)-127.0.0.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 17 ms
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: FEBS-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] parallel-1 io.lettuce.core.EpollProvider Starting without optional epoll library
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] parallel-1 io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-FEBS-Auth
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.loadbalancer.BaseLoadBalancer Client: FEBS-Auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=FEBS-Auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client FEBS-Auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=FEBS-Auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@d62feaf
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: FEBS-Server-System.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-FEBS-Server-System
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.loadbalancer.BaseLoadBalancer Client: FEBS-Server-System instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=FEBS-Server-System,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client FEBS-Server-System initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=FEBS-Server-System,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@6e3acd7
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: FEBS-Server-Test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-FEBS-Server-Test
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.loadbalancer.BaseLoadBalancer Client: FEBS-Server-Test instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=FEBS-Server-Test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-12-04 20:00:28 INFO  [FEBS-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client FEBS-Server-Test initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=FEBS-Server-Test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@237b54bc
+2020-12-04 20:00:30 INFO  [FEBS-Gateway,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-04 20:00:30 INFO  [FEBS-Gateway,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-04 20:00:30 INFO  [FEBS-Gateway,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-04 20:00:30 INFO  [FEBS-Gateway,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-04 20:00:30 INFO  [FEBS-Gateway,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-04 20:00:30 INFO  [FEBS-Gateway,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-04 20:00:30 INFO  [FEBS-Gateway,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-04 20:00:30 INFO  [FEBS-Gateway,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-04 20:00:59 INFO  [FEBS-Gateway,,,] PollingServerListUpdater-1 com.netflix.config.ChainedDynamicProperty Flipping property: FEBS-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-12-04 20:01:29 INFO  [FEBS-Gateway,,,] PollingServerListUpdater-1 com.netflix.config.ChainedDynamicProperty Flipping property: FEBS-Server-System.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-12-04 20:01:29 INFO  [FEBS-Gateway,,,] PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: FEBS-Server-Test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-12-04 20:05:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:10:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:15:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:20:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:25:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:30:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:35:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:40:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:45:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:50:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 20:55:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:00:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:05:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:10:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:15:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:20:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:25:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:30:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:35:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:40:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:45:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:50:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 21:55:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:00:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:05:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:10:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:15:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:20:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:25:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:30:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:35:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:40:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:45:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:50:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 22:55:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 23:00:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 23:05:26 INFO  [FEBS-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] Thread-44 com.netflix.loadbalancer.PollingServerListUpdater Shutting down the Executor Pool for PollingServerListUpdater
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] Thread-32 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Unregistering application FEBS-GATEWAY with eureka with status DOWN
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-GATEWAY/192.168.0.108:FEBS-Gateway:8301: registering service...
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] DiscoveryClient-InstanceInfoReplicator-0 org.apache.http.impl.client.DefaultHttpClient I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:8761: Software caused connection abort: socket write error
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] DiscoveryClient-InstanceInfoReplicator-0 org.apache.http.impl.client.DefaultHttpClient Retrying request to {}->http://127.0.0.1:8761
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] Thread-32 org.springframework.cloud.netflix.zuul.ZuulFilterInitializer Stopping filter initializer
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] Thread-32 com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook removed for: NFLoadBalancer-PingTimer-FEBS-Server-Test
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] Thread-32 com.netflix.util.concurrent.ShutdownEnabledTimer Exception caught (might be ok if at shutdown)
+java.lang.IllegalStateException: Shutdown in progress
+	at java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
+	at java.lang.Runtime.removeShutdownHook(Runtime.java:239)
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70)
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632)
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:92)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] Thread-32 com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook removed for: NFLoadBalancer-PingTimer-FEBS-Server-System
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] Thread-32 com.netflix.util.concurrent.ShutdownEnabledTimer Exception caught (might be ok if at shutdown)
+java.lang.IllegalStateException: Shutdown in progress
+	at java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
+	at java.lang.Runtime.removeShutdownHook(Runtime.java:239)
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70)
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632)
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:92)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] Thread-32 com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook removed for: NFLoadBalancer-PingTimer-FEBS-Auth
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] Thread-32 com.netflix.util.concurrent.ShutdownEnabledTimer Exception caught (might be ok if at shutdown)
+java.lang.IllegalStateException: Shutdown in progress
+	at java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
+	at java.lang.Runtime.removeShutdownHook(Runtime.java:239)
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70)
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632)
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:92)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2020-12-04 23:08:10 INFO  [FEBS-Gateway,,,] Thread-32 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-04 23:08:11 INFO  [FEBS-Gateway,,,] Thread-32 com.netflix.discovery.DiscoveryClient Shutting down DiscoveryClient ...
+2020-12-04 23:08:14 INFO  [FEBS-Gateway,,,] Thread-32 com.netflix.discovery.DiscoveryClient Unregistering ...
+2020-12-04 23:08:16 INFO  [FEBS-Gateway,,,] Thread-32 com.netflix.discovery.DiscoveryClient Completed shut down of DiscoveryClient

@@ -1,0 +1,2 @@
+2020-12-14 21:31:41 ERROR [FEBS-Server-Test,a728b4861be914df,a728b4861be914df,false] http-nio-8202-exec-1 com.daum.febs.server.test.controller.TestController 测试一条error级别的错误，看日志在哪里输出
+2020-12-14 21:31:43 ERROR [FEBS-Server-Test,5a47dc2d9ac5d53f,5a47dc2d9ac5d53f,false] http-nio-8202-exec-2 com.daum.febs.server.test.controller.TestController 测试一条error级别的错误，看日志在哪里输出

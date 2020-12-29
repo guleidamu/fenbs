@@ -1,0 +1,183 @@
+2020-12-07 22:00:52 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4ac90509] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 22:00:53 INFO  [FEBS-Auth,,,] main com.damu.febs.auth.FebsAuthApplication No active profile set, falling back to default profiles: default
+2020-12-07 22:00:53 INFO  [FEBS-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-07 22:00:53 INFO  [FEBS-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-07 22:00:53 INFO  [FEBS-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=903d6bc1-8c9e-3a9b-a321-171a032052e2
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2eaf020c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$983d72dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4ac90509] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8101 (http)
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8101"]
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1269 ms
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@635ff2a5
+2020-12-07 22:00:54 INFO  [FEBS-Auth,,,] main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-12-07 22:00:55 INFO  [FEBS-Auth,,,] main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-12-07 22:00:55 INFO  [FEBS-Auth,,,] main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-12-07 22:00:55 INFO  [FEBS-Auth,,,] main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-12-07 22:00:55 INFO  [FEBS-Auth,,,] main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-12-07 22:00:56 INFO  [FEBS-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18e76101, org.springframework.security.web.context.SecurityContextPersistenceFilter@56e78538, org.springframework.security.web.header.HeaderWriterFilter@13809363, org.springframework.security.web.authentication.logout.LogoutFilter@789d8fd6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e1b5532, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@438a2d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67cd84f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79349b61, org.springframework.security.web.session.SessionManagementFilter@7b9fea11, org.springframework.security.web.access.ExceptionTranslationFilter@696ce057, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55a66bbf]
+2020-12-07 22:00:56 INFO  [FEBS-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c8dea0b, org.springframework.security.web.context.SecurityContextPersistenceFilter@54033a65, org.springframework.security.web.header.HeaderWriterFilter@2728add3, org.springframework.security.web.authentication.logout.LogoutFilter@131b58d4, com.damu.febs.auth.filter.ValidateCodeFilter@2295566b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fb99927, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d9df336, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b9beefe, org.springframework.security.web.session.SessionManagementFilter@4fce3ed7, org.springframework.security.web.access.ExceptionTranslationFilter@5e3d84a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56a72887]
+2020-12-07 22:00:56 INFO  [FEBS-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cb76070, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ee02968, org.springframework.security.web.header.HeaderWriterFilter@2a341e3d, org.springframework.security.web.authentication.logout.LogoutFilter@24e7087a, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@1d0f7bcf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7865cc83, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a773f08, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40b8158d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3346e906, org.springframework.security.web.session.SessionManagementFilter@a4dcede, org.springframework.security.web.access.ExceptionTranslationFilter@2c731a16, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77401977]
+2020-12-07 22:00:56 INFO  [FEBS-Auth,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-07 22:00:57 INFO  [FEBS-Auth,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-07 22:00:57 INFO  [FEBS-Auth,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-07 22:00:57 INFO  [FEBS-Auth,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1607349658681 with initial instances count: 0
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application FEBS-AUTH with eureka with status UP
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1607349658683, current=UP, previous=STARTING]
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-AUTH/192.168.0.108:FEBS-Auth:8101: registering service...
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8101"]
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8101 (http) with context path ''
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8101
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] main com.damu.febs.auth.FebsAuthApplication Started FebsAuthApplication in 6.689 seconds (JVM running for 7.48)
+2020-12-07 22:00:58 INFO  [FEBS-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-AUTH/192.168.0.108:FEBS-Auth:8101 - registration status: 204
+2020-12-07 22:00:59 INFO  [FEBS-Auth,,,] RMI TCP Connection(4)-127.0.0.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-07 22:00:59 INFO  [FEBS-Auth,,,] RMI TCP Connection(4)-127.0.0.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-12-07 22:00:59 INFO  [FEBS-Auth,,,] RMI TCP Connection(4)-127.0.0.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 6 ms
+2020-12-07 22:00:59 INFO  [FEBS-Auth,,,] parallel-1 io.lettuce.core.EpollProvider Starting without optional epoll library
+2020-12-07 22:00:59 INFO  [FEBS-Auth,,,] parallel-1 io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2020-12-07 22:01:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:01:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:01:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:01:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:01:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:01:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-07 22:01:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:01:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:05:58 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-07 22:10:58 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-07 22:15:58 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-07 22:20:58 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-07 22:25:58 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-07 22:30:37 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:30:37 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:30:37 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:30:37 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:30:37 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:30:37 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-07 22:30:37 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:30:37 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:30:39 INFO  [FEBS-Auth,,,] DiscoveryClient-HeartbeatExecutor-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-AUTH/192.168.0.108:FEBS-Auth:8101 - Re-registering apps/FEBS-AUTH
+2020-12-07 22:30:39 INFO  [FEBS-Auth,,,] DiscoveryClient-HeartbeatExecutor-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-AUTH/192.168.0.108:FEBS-Auth:8101: registering service...
+2020-12-07 22:30:39 INFO  [FEBS-Auth,,,] DiscoveryClient-HeartbeatExecutor-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-AUTH/192.168.0.108:FEBS-Auth:8101 - registration status: 204
+2020-12-07 22:30:40 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:30:40 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:30:40 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:30:40 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:30:40 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:30:40 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-07 22:30:40 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:30:40 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:30:43 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:30:43 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:30:43 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:30:43 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:30:43 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:30:43 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-07 22:30:43 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:30:43 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:30:46 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:30:46 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:30:46 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:30:46 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:30:46 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:30:46 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-07 22:30:46 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:30:46 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:30:49 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:30:49 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:30:49 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:30:49 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:30:49 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:30:49 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-07 22:30:49 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:30:49 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:30:52 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:30:52 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:30:52 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:30:52 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:30:52 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:30:52 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-07 22:30:52 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:30:52 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:30:55 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:30:55 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:30:55 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:30:55 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:30:55 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:30:55 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-07 22:30:55 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:30:55 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:30:58 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-07 22:30:58 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:30:58 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:30:58 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:30:58 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:30:58 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:30:58 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-07 22:30:58 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:30:58 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:31:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-12-07 22:31:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-12-07 22:31:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-12-07 22:31:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-12-07 22:31:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-12-07 22:31:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-12-07 22:31:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-12-07 22:31:01 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-12-07 22:35:58 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-12-07 22:36:31 INFO  [FEBS-Auth,,,] lettuce-nioEventLoop-4-4 io.lettuce.core.protocol.CommandHandler null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2020-12-07 22:36:31 INFO  [FEBS-Auth,,,] lettuce-eventExecutorLoop-1-11 io.lettuce.core.protocol.ConnectionWatchdog Reconnecting, last destination was /127.0.0.1:6379
+2020-12-07 22:36:36 INFO  [FEBS-Auth,,,] Thread-20 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Unregistering application FEBS-AUTH with eureka with status DOWN
+2020-12-07 22:36:36 INFO  [FEBS-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-AUTH/192.168.0.108:FEBS-Auth:8101: registering service...
+2020-12-07 22:36:36 INFO  [FEBS-Auth,,,] Thread-20 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-07 22:36:36 INFO  [FEBS-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 org.apache.http.impl.client.DefaultHttpClient I/O exception (java.net.SocketException) caught when processing request to {}->http://127.0.0.1:8761: Software caused connection abort: socket write error
+2020-12-07 22:36:36 INFO  [FEBS-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 org.apache.http.impl.client.DefaultHttpClient Retrying request to {}->http://127.0.0.1:8761
+2020-12-07 22:36:37 INFO  [FEBS-Auth,,,] Thread-20 com.baomidou.dynamic.datasource.DynamicRoutingDataSource closing dynamicDatasource  ing....
+2020-12-07 22:36:37 INFO  [FEBS-Auth,,,] Thread-20 com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2020-12-07 22:36:37 INFO  [FEBS-Auth,,,] Thread-20 com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2020-12-07 22:36:37 INFO  [FEBS-Auth,,,] Thread-20 com.netflix.discovery.DiscoveryClient Shutting down DiscoveryClient ...
+2020-12-07 22:36:40 INFO  [FEBS-Auth,,,] Thread-20 com.netflix.discovery.DiscoveryClient Unregistering ...
+2020-12-07 22:36:42 INFO  [FEBS-Auth,,,] Thread-20 com.netflix.discovery.DiscoveryClient Completed shut down of DiscoveryClient

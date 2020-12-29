@@ -1,0 +1,120 @@
+2020-11-21 09:56:22 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$688fbc79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-21 09:56:23 INFO  [FEBS-Auth,,,] main com.damu.febs.auth.FebsAuthApplication No active profile set, falling back to default profiles: default
+2020-11-21 09:56:23 INFO  [FEBS-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-21 09:56:23 INFO  [FEBS-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-11-21 09:56:23 INFO  [FEBS-Auth,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=903d6bc1-8c9e-3a9b-a321-171a032052e2
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c75b97c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$b6042a4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$688fbc79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8101 (http)
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8101"]
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1493 ms
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1f949ab9
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-21 09:56:24 INFO  [FEBS-Auth,,,] main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-21 09:56:26 INFO  [FEBS-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71eafb64, org.springframework.security.web.context.SecurityContextPersistenceFilter@40fee459, org.springframework.security.web.header.HeaderWriterFilter@73d8c8d7, org.springframework.security.web.authentication.logout.LogoutFilter@10ba9780, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e4d2232, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ffa0f38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@482942d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@491cc0eb, org.springframework.security.web.session.SessionManagementFilter@699bb304, org.springframework.security.web.access.ExceptionTranslationFilter@206bd7a0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42cf5a6f]
+2020-11-21 09:56:26 INFO  [FEBS-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@389bc2d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cfd6f63, org.springframework.security.web.header.HeaderWriterFilter@c683cf5, org.springframework.security.web.authentication.logout.LogoutFilter@6a5c2d2d, com.damu.febs.auth.filter.ValidateCodeFilter@42401b81, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1906f982, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5444f1c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@442310fd, org.springframework.security.web.session.SessionManagementFilter@2c224096, org.springframework.security.web.access.ExceptionTranslationFilter@37665305, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bceac99]
+2020-11-21 09:56:26 INFO  [FEBS-Auth,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20518250, org.springframework.security.web.context.SecurityContextPersistenceFilter@77881b7a, org.springframework.security.web.header.HeaderWriterFilter@3ba1f56e, org.springframework.security.web.authentication.logout.LogoutFilter@76134251, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@3f2ef402, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f6d7e7c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59ac77f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d92e327, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7836c79, org.springframework.security.web.session.SessionManagementFilter@56a9b662, org.springframework.security.web.access.ExceptionTranslationFilter@5f4e389a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26b3fe8]
+2020-11-21 09:56:26 INFO  [FEBS-Auth,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-21 09:56:26 INFO  [FEBS-Auth,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-21 09:56:27 INFO  [FEBS-Auth,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-21 09:56:27 INFO  [FEBS-Auth,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2020-11-21 09:56:27 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2020-11-21 09:56:27 INFO  [FEBS-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2020-11-21 09:56:27 INFO  [FEBS-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Application is null : false
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient The response status is 200
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1605923788830 with initial instances count: 0
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application FEBS-AUTH with eureka with status UP
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1605923788834, current=UP, previous=STARTING]
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-AUTH/LAPTOP-TJQMIBPR:FEBS-Auth:8101: registering service...
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8101"]
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8101 (http) with context path ''
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8101
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] main com.damu.febs.auth.FebsAuthApplication Started FebsAuthApplication in 7.538 seconds (JVM running for 8.594)
+2020-11-21 09:56:28 INFO  [FEBS-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-AUTH/LAPTOP-TJQMIBPR:FEBS-Auth:8101 - registration status: 204
+2020-11-21 09:56:29 INFO  [FEBS-Auth,,,] RMI TCP Connection(4)-127.0.0.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 09:56:29 INFO  [FEBS-Auth,,,] RMI TCP Connection(4)-127.0.0.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-21 09:56:29 INFO  [FEBS-Auth,,,] RMI TCP Connection(4)-127.0.0.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 9 ms
+2020-11-21 09:56:29 INFO  [FEBS-Auth,,,] parallel-1 io.lettuce.core.EpollProvider Starting without optional epoll library
+2020-11-21 09:56:29 INFO  [FEBS-Auth,,,] parallel-1 io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2020-11-21 09:56:31 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-11-21 09:56:31 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-11-21 09:56:31 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-11-21 09:56:31 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-11-21 09:56:31 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-11-21 09:56:31 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2020-11-21 09:56:31 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-11-21 09:56:31 INFO  [FEBS-Auth,,,] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2020-11-21 10:01:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:06:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:11:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:16:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:21:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:26:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:31:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:36:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:41:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:46:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:51:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 10:56:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 11:01:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 11:06:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 11:11:28 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 14:17:53 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 18:26:44 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 18:31:44 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 18:36:44 INFO  [FEBS-Auth,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-11-21 22:45:15 INFO  [FEBS-Auth,,,] lettuce-nioEventLoop-4-1 io.lettuce.core.protocol.CommandHandler null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2020-11-21 22:45:15 INFO  [FEBS-Auth,,,] lettuce-eventExecutorLoop-1-3 io.lettuce.core.protocol.ConnectionWatchdog Reconnecting, last destination was /127.0.0.1:6379
+2020-11-21 22:45:21 INFO  [FEBS-Auth,,,] Thread-21 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Unregistering application FEBS-AUTH with eureka with status DOWN
+2020-11-21 22:45:21 INFO  [FEBS-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FEBS-AUTH/LAPTOP-TJQMIBPR:FEBS-Auth:8101: registering service...
+2020-11-21 22:45:21 INFO  [FEBS-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 org.apache.http.impl.client.DefaultHttpClient I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:8761: Software caused connection abort: socket write error
+2020-11-21 22:45:21 INFO  [FEBS-Auth,,,] DiscoveryClient-InstanceInfoReplicator-0 org.apache.http.impl.client.DefaultHttpClient Retrying request to {}->http://localhost:8761
+2020-11-21 22:45:21 INFO  [FEBS-Auth,,,] Thread-21 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-21 22:45:22 INFO  [FEBS-Auth,,,] Thread-21 com.baomidou.dynamic.datasource.DynamicRoutingDataSource closing dynamicDatasource  ing....
+2020-11-21 22:45:22 INFO  [FEBS-Auth,,,] Thread-21 com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2020-11-21 22:45:22 INFO  [FEBS-Auth,,,] Thread-21 com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2020-11-21 22:45:22 INFO  [FEBS-Auth,,,] Thread-21 com.netflix.discovery.DiscoveryClient Shutting down DiscoveryClient ...
+2020-11-21 22:45:25 INFO  [FEBS-Auth,,,] Thread-21 com.netflix.discovery.DiscoveryClient Unregistering ...
+2020-11-21 22:45:29 INFO  [FEBS-Auth,,,] Thread-21 com.netflix.discovery.DiscoveryClient Completed shut down of DiscoveryClient

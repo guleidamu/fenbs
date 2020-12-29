@@ -1,0 +1,6 @@
+com\daum\febs\server\test\FebsServerTestApplication.class
+com\daum\febs\server\test\service\IHelloService.class
+com\daum\febs\server\test\controller\TestController.class
+com\daum\febs\server\test\configure\FebsServerTestResourceServerConfigure.class
+com\daum\febs\server\test\handler\GlobalExceptionHandler.class
+com\daum\febs\server\test\service\fallback\HelloServiceFallback.class
