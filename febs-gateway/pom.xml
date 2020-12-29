@@ -6,7 +6,7 @@
         <artifactId>fenbs</artifactId>
         <groupId>com.damu</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../fenbs/pom.xml</relativePath>
+        <!--<relativePath>../../fenbs/pom.xml</relativePath>-->
     </parent>
 
     <artifactId>febs-gateway</artifactId>
