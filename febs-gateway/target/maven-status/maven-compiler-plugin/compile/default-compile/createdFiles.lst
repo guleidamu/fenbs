@@ -1,8 +1,0 @@
-com\damu\febs\gateway\configure\FebsGateWayCorsConfigure.class
-com\damu\febs\gateway\filter\FebsGatewayRequestFilter.class
-com\damu\febs\gateway\FebsGatewayApplication.class
-com\damu\febs\gateway\configure\FebsGatewaySentinelConfigure.class
-com\damu\febs\gateway\configure\FebsGatewayErrorConfigure.class
-com\damu\febs\gateway\handler\FebsGatewayExceptionHandler.class
-com\damu\febs\gateway\properties\FebsGatewayProperties.class
-com\damu\febs\gateway\controller\FallbackController.class
