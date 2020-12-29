@@ -32,6 +32,7 @@
       <module name="febs-register" options="-parameters" />
       <module name="febs-server-system" options="-parameters" />
       <module name="febs-server-test" options="-parameters" />
+      <module name="fenbs" options="-parameters" />
       <module name="monitor-admin" options="-parameters" />
     </option>
   </component>
